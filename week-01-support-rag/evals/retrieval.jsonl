@@ -1,0 +1,40 @@
+{"id": "r01", "kind": "direct", "question": "How do I cancel my subscription?", "expected_docs": ["cancel-subscription.md"]}
+{"id": "r02", "kind": "direct", "question": "How do I enable two-factor authentication?", "expected_docs": ["2fa.md"]}
+{"id": "r03", "kind": "direct", "question": "How do I change the reporting timezone?", "expected_docs": ["general.md"]}
+{"id": "r04", "kind": "direct", "question": "How do I import historical data from Google Analytics?", "expected_docs": ["google-analytics-import.md"]}
+{"id": "r05", "kind": "direct", "question": "How do I exclude my own IP address from being counted?", "expected_docs": ["excluding.md"]}
+{"id": "r06", "kind": "direct", "question": "How do I create a shared link with a password?", "expected_docs": ["shared-links.md"]}
+{"id": "r07", "kind": "direct", "question": "How do I embed the dashboard in an iframe?", "expected_docs": ["embed-dashboard.md"]}
+{"id": "r08", "kind": "direct", "question": "How do I transfer a site to another account?", "expected_docs": ["transfer-ownership.md"]}
+{"id": "r09", "kind": "direct", "question": "What payment methods do you accept?", "expected_docs": ["billing.md", "trial-to-paid.md"]}
+{"id": "r10", "kind": "direct", "question": "How do I change my site's domain name?", "expected_docs": ["change-domain-name.md"]}
+{"id": "r11", "kind": "direct", "question": "How do I reset my password?", "expected_docs": ["reset-password.md"]}
+{"id": "r12", "kind": "direct", "question": "How do I set up weekly email reports?", "expected_docs": ["email-reports.md"]}
+{"id": "r13", "kind": "direct", "question": "Is there a discount for nonprofits?", "expected_docs": ["nonprofit-and-education-pricing.md"]}
+{"id": "r14", "kind": "direct", "question": "How do I track 404 error pages?", "expected_docs": ["error-pages-tracking-404.md"]}
+{"id": "r15", "kind": "paraphrase", "question": "I want to stop paying for Plausible", "expected_docs": ["cancel-subscription.md"]}
+{"id": "r16", "kind": "paraphrase", "question": "How do I keep my own browsing out of the numbers?", "expected_docs": ["excluding.md", "excluding-localstorage.md"]}
+{"id": "r17", "kind": "paraphrase", "question": "People using ad blockers aren't showing up, what can I do?", "expected_docs": ["proxy/introduction.md", "troubleshoot-integration.md"]}
+{"id": "r18", "kind": "paraphrase", "question": "Will I be charged automatically once the free period is over?", "expected_docs": ["trial.md", "register-account.md"]}
+{"id": "r19", "kind": "paraphrase", "question": "The day in my reports starts at the wrong hour", "expected_docs": ["general.md"]}
+{"id": "r20", "kind": "paraphrase", "question": "The only person who could manage our plan has left the company", "expected_docs": ["transfer-account-ownership.md"]}
+{"id": "r21", "kind": "paraphrase", "question": "Let a client see their numbers without giving them a login", "expected_docs": ["shared-links.md", "visibility.md", "embed-dashboard.md"]}
+{"id": "r22", "kind": "paraphrase", "question": "Someone may have got into my account from another computer, how do I kick them out?", "expected_docs": ["login-management.md", "account-settings.md"]}
+{"id": "r23", "kind": "paraphrase", "question": "I lost my phone and can't get the login codes any more", "expected_docs": ["2fa.md"]}
+{"id": "r24", "kind": "paraphrase", "question": "Tell me when my site suddenly gets a lot of visitors", "expected_docs": ["traffic-spikes.md", "slack-reports.md"]}
+{"id": "r25", "kind": "paraphrase", "question": "Our accountant needs the receipts", "expected_docs": ["download-invoices.md", "invoice-email.md", "billing.md"]}
+{"id": "r26", "kind": "paraphrase", "question": "Why is the count lower than what GA shows?", "expected_docs": ["dashboard-faq.md", "troubleshoot-integration.md"]}
+{"id": "r27", "kind": "paraphrase", "question": "Wipe all the statistics but keep the site", "expected_docs": ["reset-site-data.md"]}
+{"id": "r28", "kind": "paraphrase", "question": "My app's URLs look like example.com/#/settings and only one page shows up", "expected_docs": ["hash-based-routing.md"]}
+{"id": "r29", "kind": "paraphrase", "question": "We went over our monthly quota, are we going to be billed extra?", "expected_docs": ["billing.md", "subscription-plans.md"]}
+{"id": "r30", "kind": "paraphrase", "question": "See how far down the page readers get", "expected_docs": ["scroll-depth.md"]}
+{"id": "r31", "kind": "paraphrase", "question": "Which links to other websites do people press?", "expected_docs": ["outbound-link-click-tracking.md"]}
+{"id": "r32", "kind": "paraphrase", "question": "Let staff log in with our company identity provider", "expected_docs": ["sso.md", "sso-okta.md", "sso-ms-entra.md", "sso-google-workspaces.md"]}
+{"id": "r33", "kind": "paraphrase", "question": "Bring my old numbers over from a spreadsheet", "expected_docs": ["csv-import.md"]}
+{"id": "r34", "kind": "identifier", "question": "x-plausible-dropped", "expected_docs": ["troubleshoot-integration.md", "events-api.md", "custom-event-goals.md"]}
+{"id": "r35", "kind": "identifier", "question": "autoCapturePageviews false", "expected_docs": ["custom-query-params.md", "custom-locations.md", "script-extensions.md", "script-update-guide.md"]}
+{"id": "r36", "kind": "identifier", "question": "X-Forwarded-For header", "expected_docs": ["proxy/introduction.md", "events-api.md", "troubleshoot-integration.md", "proxy/guides/nginx.md", "proxy/guides/fresh.md", "proxy/guides/laravel.md"]}
+{"id": "r37", "kind": "identifier", "question": "/api/v2/query", "expected_docs": ["stats-api.md"]}
+{"id": "r38", "kind": "identifier", "question": "localStorage.plausible_ignore", "expected_docs": ["excluding-localstorage.md"]}
+{"id": "r39", "kind": "identifier", "question": "hashBasedRouting", "expected_docs": ["hash-based-routing.md", "script-extensions.md", "script-update-guide.md", "carrd-integration.md", "discourse-integration.md"]}
+{"id": "r40", "kind": "identifier", "question": "Paddle VAT number", "expected_docs": ["billing.md", "download-invoices.md"]}

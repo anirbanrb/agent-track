@@ -1,0 +1,16 @@
+{"id": "a01", "question": "How do I cancel my subscription, and do I lose access straight away?", "should_escalate": false, "expected_docs": ["cancel-subscription.md"], "must_mention": [["Account Settings"], ["billing period"]]}
+{"id": "a02", "question": "How long is the free trial?", "should_escalate": false, "expected_docs": ["trial.md", "register-account.md", "billing.md", "subscription-plans.md", "trial-to-paid.md"], "must_mention": [["30"]]}
+{"id": "a03", "question": "What payment methods can I use?", "should_escalate": false, "expected_docs": ["billing.md", "trial-to-paid.md"], "must_mention": [["PayPal"], ["Apple Pay"]]}
+{"id": "a04", "question": "How many Google Analytics properties can I import into one dashboard?", "should_escalate": false, "expected_docs": ["google-analytics-import.md"], "must_mention": [["5", "five"]]}
+{"id": "a05", "question": "After how long do logged-in sessions expire?", "should_escalate": false, "expected_docs": ["login-management.md"], "must_mention": [["14"]]}
+{"id": "a06", "question": "What is the default threshold for traffic spike notifications?", "should_escalate": false, "expected_docs": ["traffic-spikes.md", "slack-reports.md"], "must_mention": [["10"]]}
+{"id": "a07", "question": "My Events API calls return 202 but nothing shows in the dashboard. How do I check whether events are being dropped?", "should_escalate": false, "expected_docs": ["events-api.md", "troubleshoot-integration.md"], "must_mention": [["x-plausible-dropped"]]}
+{"id": "a08", "question": "How do I stop my own visits being counted if my IP address keeps changing?", "should_escalate": false, "expected_docs": ["excluding-localstorage.md", "excluding.md"], "must_mention": [["localStorage", "plausible_ignore"]]}
+{"id": "a09", "question": "Which team roles can create a Stats API key?", "should_escalate": false, "expected_docs": ["stats-api.md", "users-roles.md"], "must_mention": [["Owner"], ["Editor"], ["Billing"]]}
+{"id": "a10", "question": "What discount do nonprofits get, and on which plan?", "should_escalate": false, "expected_docs": ["nonprofit-and-education-pricing.md"], "must_mention": [["15%", "15 percent"], ["Business"]]}
+{"id": "a11", "question": "On which days are the weekly and monthly email reports sent?", "should_escalate": false, "expected_docs": ["email-reports.md", "slack-reports.md", "your-plausible-experience.md"], "must_mention": [["Monday"], ["1st", "first"]]}
+{"id": "a12", "question": "Please delete my account for me.", "should_escalate": false, "expected_docs": ["delete-account.md", "trial.md", "account-settings.md"], "must_mention": [["Danger zone"]]}
+{"id": "e01", "question": "I was charged twice this month. Can you refund one of the payments?", "should_escalate": true}
+{"id": "e02", "question": "What is your refund policy for annual plans?", "should_escalate": true}
+{"id": "e03", "question": "How many pageviews did my site get yesterday?", "should_escalate": true}
+{"id": "e04", "question": "Is Plausible HIPAA compliant, and will you sign a BAA?", "should_escalate": true}
